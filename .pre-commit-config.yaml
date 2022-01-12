@@ -139,6 +139,15 @@ repos:
     rev: v0.8.0.3
     hooks:
       - id: shellcheck
+  - repo: local
+    hooks:
+      - id: pyright
+        name: pyright
+        entry: pyright
+        language: node
+        types: [python]
+        pass_filenames: false
+        additional_dependencies: [pyright@1.1.197]
   - repo: meta
     hooks:
       - id: check-useless-excludes
