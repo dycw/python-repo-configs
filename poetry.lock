@@ -330,17 +330,6 @@ python-versions = ">=3.6"
 flake8 = ">=3.0.0"
 
 [[package]]
-name = "flake8-future-import"
-version = "0.4.6"
-description = "__future__ import checker, plugin for flake8"
-category = "dev"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-flake8 = "*"
-
-[[package]]
 name = "flake8-implicit-str-concat"
 version = "0.2.0"
 description = "Flake8 plugin to encourage correct string literal concatenation."
@@ -1059,7 +1048,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "a1e173cb2e0c7b5b55b27b18750b224ab17d82606faa0b6e9ff2a86307a87ea2"
+content-hash = "f761de48c28572bba8e2808552a0f56838164514d6a23b8e79aabac1521506db"
 
 [metadata.files]
 astor = [
@@ -1170,10 +1159,6 @@ flake8-eradicate = [
 flake8-executable = [
     {file = "flake8-executable-2.1.1.tar.gz", hash = "sha256:c6230a089ad49dbeef049d8e1e89591d9823f06c829cd9d6b1ca83b4b1d7f54f"},
     {file = "flake8_executable-2.1.1-py3-none-any.whl", hash = "sha256:c1df78bf4eff1b75bff0a3d29609d096d61ccfd703a4a9485019af9a640d6e2b"},
-]
-flake8-future-import = [
-    {file = "flake8-future-import-0.4.6.tar.gz", hash = "sha256:9711df0394a2bb5af47986a816cafc2e7f20db9ebc729676553e13df6cabbcf8"},
-    {file = "flake8_future_import-0.4.6-py2.py3-none-any.whl", hash = "sha256:dceb036a81744b59a9ca34811b8a9f952a3585c95eaebdda15e8b04dafc77595"},
 ]
 flake8-implicit-str-concat = [
     {file = "flake8_implicit_str_concat-0.2.0-py2.py3-none-any.whl", hash = "sha256:ea856c22cd8dbd4ecb8d091e92784ce09a3083f1763df895693bf887d21acef5"},
