@@ -1,0 +1,27 @@
+{
+  "include": ["src"],
+  "exclude": [
+    "dist",
+    ".git",
+    ".hypothesis",
+    "**/__pycache__",
+    "notebooks",
+    ".pytest_cache",
+    ".venv"
+  ],
+  "venvPath": ".venv",
+  "pythonVersion": "3.9",
+  "pythonPlatform": "Linux",
+  "executionEnvironments": [
+    {
+      "root": "src"
+    }
+  ],
+  "typeCheckingMode": "strict",
+  "reportMissingModuleSource": "source",
+  "reportMissingTypeStubs": false,
+  "reportPrivateUsage": false,
+  "reportUnknownArgumentType": false,
+  "reportUnknownVariableType": false,
+  "reportUnknownMemberType": false
+}

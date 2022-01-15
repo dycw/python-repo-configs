@@ -1,0 +1,5 @@
+.git/
+htmlcov
+notebooks
+poetry.lock
+tags

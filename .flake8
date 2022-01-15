@@ -1,0 +1,32 @@
+[flake8]
+extend-ignore =
+  # flake8-alphabetize
+    AZ100,
+    # Import statements are in the wrong order
+    AZ300,
+    # Import statements should be combined
+  # flake8-annotations
+    ANN101,
+    # Missing type annotation for self in method
+    ANN102,
+    # Missing type annotation for cls in method
+    A003,
+  # flake8-builtins
+    A003
+    # class attribute "{0}" is shadowing a python builtin
+  # flake8-bugbear
+    B008,
+    # Do not perform function calls in argument defaults
+  # flake8-pytest-style
+    PT013,
+    # found incorrect import of pytest
+  # flake8-simplify
+    SIM106,
+    # Handle error-cases first
+max-line-length = 88
+min-python-version = 3.9
+per-file-ignores =
+  # flake8-bandit
+    */tests/*.py:S101
+    # Use of assert detected
+show-source = True
