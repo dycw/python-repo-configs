@@ -1,5 +1,7 @@
 {
-  "include": ["src"],
+  "include": [
+    "src"
+  ],
   "exclude": [
     "dist",
     ".git",
@@ -18,7 +20,7 @@
     }
   ],
   "typeCheckingMode": "strict",
-  "reportMissingModuleSource": "source",
+  "reportMissingModuleSource": "error",
   "reportMissingTypeStubs": false,
   "reportPrivateUsage": false,
   "reportUnknownArgumentType": false,
