@@ -13,7 +13,7 @@ extend-ignore =
     A003,
   # flake8-builtins
     A003
-    # class attribute "{0}" is shadowing a python builtin
+    # class attribute "." is shadowing a python builtin
   # flake8-bugbear
     B008,
     # Do not perform function calls in argument defaults
@@ -23,6 +23,9 @@ extend-ignore =
   # flake8-simplify
     SIM106,
     # Handle error-cases first
+  # flake8-type-checking
+    TC002,
+    # Move third-party import '.' into a type-checking block
 max-line-length = 88
 min-python-version = 3.9
 per-file-ignores =
